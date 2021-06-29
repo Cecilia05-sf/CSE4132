@@ -55,7 +55,6 @@ public class Homework1 {
         long stop = System.nanoTime();
 
         // calculate the time duration for each insert
-        //double time = (double) (stop - start) / (INSERTS_PER_READING * NANO_SECONDS_PER_SECOND);
         String TimePerInsert=String.format("%.6f",(stop - start) / (INSERTS_PER_READING * NANO_SECONDS_PER_SECOND));
 
         // output in tabular format
